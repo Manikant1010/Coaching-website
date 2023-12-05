@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+#main-content{
+  margin: 60px 0px 0px 0px;
+  min-height: 800px;
+  background-color: antiquewhite;
+}
+table {
+    padding: 0 3px;
+}
+table td {
+    width: 100%;
+    display: block;
+}
+label {
+    display: block;
+    padding-bottom: 5px;
+}
+span {
+    color: #2FB3CD;
+}
+input {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 15px;
+}
+input[type=submit] {
+    background-color: #0DBFDC;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    border-radius: 4px;
+    width: 100%;
+}
+textarea {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    min-height: 80px;
+    resize: vertical;
+}
+@media only screen and (min-width: 768px) {
+    table {
+        padding: 30px 80px 0 80px;
+    }
+    table td {
+        width: 50%;
+        display: inline-block;
+    }
+    textarea, input {
+        width: 80%;
+    }
+    input[type=submit] {
+        width: fit-content;
+    }
+}
+.navbar-brand {
+    background-color: black;
+  }
+  
+  .navbar-item img {
+    max-height: 4.5rem;
+  }
+  
+  .navbar-burger {
+    height: 5.55rem;
+  }
+  
+  a.navbar-item {
+    background-color: black;
+  }
+  .navbar-menu {
+    background-color: black;
+  }
+  .typewriter-effect {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    color: #ffe08a;
+  }
+  
+  .typewriter-effect > .text {
+    max-width: 0;
+    animation: typing 3s steps(var(--characters)) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .typewriter-effect:after {
+    content: " |";
+    animation: blink 1s infinite;
+    animation-timing-function: step-end;
+  }
+  .textarea {
+    width: 300px;
+    height: 150px;
+  }
+  #myUl {
+    padding-bottom: 5%;
+  }
+  
+  .followMe {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  
+  

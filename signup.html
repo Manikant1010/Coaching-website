@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="Layout1.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Your Logo">
+            <!-- Replace "your-logo.png" with the path to your logo image -->
+            <span>Learn-<i>with<i>-Manikant</span>
+        </div>
+        <nav class="nav1">
+            <a href="index.html">Home</a>
+            <a href="side.html">Course</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+        </nav>
+        
+
+    </header>
+    <!--<header id="header2">
+        <div class="header2-item">
+            <span>Learn-<i>with<i>-Manikant</span>
+        </div>
+        <div class="header2-item">
+        <nav id="nav2">
+            <a href="#">Tab 1</a>
+            <a href="#">Tab 2</a>
+            <a href="#">Tab 3</a>
+            <a href="#">Tab 4</a>
+            <a href="#">Tab 5</a>
+        </nav>
+        </div>
+        
+    </header>-->
+    <div id="main-content">
+        <form>
+            <div class="card">
+              <div class="container" class="set-signup">
+                          <h2 align="center"><b><u>Enter your Details</u></b></h2>
+                <br>
+                         <input class="textbox" type="text" name="name" placeholder="Enter Your Full Name" size="35">
+                <br>
+                         <select class="textbox" name="Birth_Year" style="width: 322px">
+                    <option value="Defult">Select Your Birth Year</option>
+                                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                </select>
+                <br> 
+                 Gender:<input type="radio" name="sex" value="Male">Male <input type="radio" name="sex" value="Female">Female
+                <br>
+                <br>
+                 <textarea class="textbox" placeholder="Enter Your Address" style="width: 313px;"></textarea>
+                <br>
+                <select class="textbox" name="sel_Country" style="width: 322px">
+                    <option value="Defult">Select Your Country</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="India">India</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="China">China</option>
+                    <option value="US">US</option>
+                                    <option value="Koria">Koria</option>
+                    <option value="Moldives">Moldives</option>
+                    <option value="UK">UK</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Mexico">Mexico</option>
+                </select>
+                <br>
+                TelePhone No:<input class="textbox" type="text" name="telephone" placeholder="Enter Your Telephone No" size="35">
+                <br>
+                Mobile No: <input class="textbox" type="text" name="moblieno" placeholder="Enter Your Mobile No" size="35">
+                <br>
+                
+                <input class="btn_clear" type="reset" name="create account" value="create account" onclick="displayMessage()">
+                <script>
+                    function displayMessage() {
+                        alert("You are successfully create your account.");
+                    }
+                </script>
+              </div>
+            </div>
+        </form>
+
+    </div>
+    <!-- The rest of your website content goes here -->
+    <footer>
+        <div class="footer-content footer-grid-container">
+            <div class="footer-grid-item">
+                <p id="footer-2">Follow us</p>
+               <div class="foo-p">
+                <p>Instagram</p>
+                <p>Youtube</p>
+                <p>Facebook</p>
+                <p>Linkdein</p>
+        
+               </div>
+            </div>
+            <div class="footer-grid-item">
+                <p id="footer-2">Best learning process</p>
+               <div class="foo-p">
+                <p>Best teacher</p>
+                <p>well defined course</p>
+                <p>well defined notes</p>
+                <p>Best learning experience</p>
+        
+               </div>
+
+            </div>
+            <div class="footer-grid-item">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">login</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <!-- Add more list items as needed -->
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-end">
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </div>
+    
+    </footer>
+
+</body>
+</html>

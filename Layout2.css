@@ -1,0 +1,33 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+#main-container{
+    display: grid;
+    grid-template-columns: 25% 72%;
+    column-gap: 25px;
+    min-height:600px;
+    background-color: antiquewhite;
+    margin: 140px 10px 0px 10px;
+}
+#main-container-item{
+    border: 2px solid blue;
+    padding:30px;
+}
+/*scrollbar*/
+.sidebar {
+    width: 90%;
+    height: 600px;
+    overflow-y: auto; /* Add vertical scrollbar */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.sidebar p {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#left p a{
+    color: black;
+}

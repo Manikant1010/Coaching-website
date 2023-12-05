@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="Layout1.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Your Logo">
+            <!-- Replace "your-logo.png" with the path to your logo image -->
+            <span>Learn-<i>with<i>-Manikant</span>
+        </div>
+        <nav class="nav1">
+            <a href="index.html">Home</a>
+            <a href="side.html">Course</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+        </nav>
+        
+
+    </header>
+    <!--<header id="header2">
+        <div class="header2-item">
+            <span>Learn-<i>with<i>-Manikant</span>
+        </div>
+        <div class="header2-item">
+        <nav id="nav2">
+            <a href="#">Tab 1</a>
+            <a href="#">Tab 2</a>
+            <a href="#">Tab 3</a>
+            <a href="#">Tab 4</a>
+            <a href="#">Tab 5</a>
+        </nav>
+        </div>
+        
+    </header>-->
+    <div id="main-content" class="set-login">
+        <center>
+            <form>
+                <div class="card">
+                  <img class="User_img" src="User.png" alt="User">
+                  <div class="container">
+                    <h2><b>Sign In Form</b></h2>
+                    User Name: <input class="textbox" type="text" name="username" placeholder="Enter The User Name" size="35">
+                    <br>
+                    Password: <input class="textbox" type="password" name="username" placeholder="Enter The Password" size="35">
+                    <p>Enter Valid Details and <br>Please sign in your account.</p>
+                    <a href="SignUp.html">Sign up newcomers.!</a>
+                    <br>
+                    <input class="btn_signin" type="button" name="signin" value="Sign In" onclick="displayMessage()">
+
+<script>
+    function displayMessage() {
+        alert("Your form is submitted!");
+    }
+</script>
+
+                    <input class="btn_clear" type="reset" name="clear" value="Clear" onclick="displayMessage()">
+                    <script>
+                        function displayMessage() {
+                            alert("Your form is cleared!");
+                        }
+                    </script>
+                  </div>
+                </div>
+            </form>
+        </center>
+    </div>
+    <!-- The rest of your website content goes here -->
+    <footer>
+        <div class="footer-content footer-grid-container">
+            <div class="footer-grid-item">
+                <p id="footer-2">Follow us</p>
+               <div class="foo-p">
+                <p>Instagram</p>
+                <p>Youtube</p>
+                <p>Facebook</p>
+                <p>Linkdein</p>
+        
+               </div>
+            </div>
+            <div class="footer-grid-item">
+                <p id="footer-2">Best learning process</p>
+               <div class="foo-p">
+                <p>Best teacher</p>
+                <p>well defined course</p>
+                <p>well defined notes</p>
+                <p>Best learning experience</p>
+        
+               </div>
+
+            </div>
+            <div class="footer-grid-item">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">login</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <!-- Add more list items as needed -->
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-end">
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </div>
+    
+    </footer>
+
+</body>
+</html>
